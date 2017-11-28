@@ -1,12 +1,6 @@
-s1 = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
-a = int(input())
-b = input()
-res = ''
-len_s1 = len(s1)
-
-for i in b:
-    res(s1[s1[i]] 
-    
-print('Result: ' + res)
-
+a = list(input('Ваш текст: '))
+for i,sym in enumerate(a):
+    sym = "".join(a[-i:])
+    sym += "".join(a[:-i])
+    print(sym)
     
