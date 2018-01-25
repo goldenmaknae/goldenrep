@@ -1,18 +1,14 @@
-text = f.read()
-
-with open("demian.txt", "w", encoding="utf-8"):
+with open("text.txt", encoding = "utf-8") as f:
     text = f.read()
-
-    def clean(text):
-        assert type(text) == str
-        string = "',', '.', ':', ';', '!', '?'"
-        for 
-
-    def split_line(text):
-        words = text.split()
-        
-    for word in words:
-        print(word)
-
+    text = text.split()
     
-        
+
+a = text
+d = {}
+for word in a:
+    if word in d:
+        d[word] += 1
+    else:
+        d[word] = 1
+
+print(d)
