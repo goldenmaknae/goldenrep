@@ -1,3 +1,5 @@
+#5 вариант
+
 import re
 
 def main():
