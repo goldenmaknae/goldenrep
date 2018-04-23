@@ -1,3 +1,5 @@
+#5 вариант
+
 import os
 
 files = os.listdir()
