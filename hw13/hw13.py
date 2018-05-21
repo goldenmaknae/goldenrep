@@ -11,4 +11,4 @@ filenames = {}
 for file in files:
     filenames[os.path.splitext(file)[0]] = 0
 
-print('Сколько в этих папках встречается разных названий файлов без учёта расширений:', len(filenames))
+print('Сколько в этих папках встречается разных названий файлов без учёта расширений: ', len(filenames))
